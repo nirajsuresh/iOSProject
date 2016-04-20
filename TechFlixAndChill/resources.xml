@@ -1,0 +1,38 @@
+<resources>
+    <string-array name="majors_array">
+        <item>Aerospace Engineering</item>
+        <item>Applied Language and Intercultural Studies</item>
+        <item>Applied Mathematics</item>
+        <item>Applied Physics</item>
+        <item>Architecture</item>
+        <item>Biochemistry</item>
+        <item>Biology</item>
+        <item>Biomedical Engineering</item>
+        <item>Building Construction</item>
+        <item>Business Administration</item>
+        <item>Chemical Engineering</item>
+        <item>Chemistry</item>
+        <item>Civil Engineering</item>
+        <item>Computational Media</item>
+        <item>Computer Science</item>
+        <item>Discrete Mathematics</item>
+        <item>Earth and Atmospheric Sciences</item>
+        <item>Economics and International Affairs</item>
+        <item>Economics</item>
+        <item>Electrical Engineering</item>
+        <item>Environmental Engineering</item>
+        <item>Global Economics and Modern Languages</item>
+        <item>History, Technology, and Society</item>
+        <item>Industrial Design</item>
+        <item>Industrial Engineering</item>
+        <item>International Affairs and Modern Languages</item>
+        <item>International Affairs</item>
+        <item>Literature, Media, and Communication</item>
+        <item>Materials Science and Engineering</item>
+        <item>Mechanical Engineering</item>
+        <item>Nuclear Engineering</item>
+        <item>Physics</item>
+        <item>Psychology</item>
+        <item>Public Policy</item>
+    </string-array>
+</resources>

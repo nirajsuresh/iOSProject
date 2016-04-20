@@ -16,3 +16,4 @@ target 'TechFlixAndChillUITests' do
 end
 
 pod 'Firebase', '>= 2.5.0'
+pod 'JLToast', '~> 1.3'

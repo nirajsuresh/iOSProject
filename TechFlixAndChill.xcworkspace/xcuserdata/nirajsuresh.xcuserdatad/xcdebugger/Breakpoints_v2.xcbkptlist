@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TechFlixAndChill/ViewController.swift"
+            timestampString = "479071368.568838"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TechFlixAndChill.ViewController.__deallocating_deinit"
+                  moduleName = "TechFlixAndChill"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nirajsuresh/Desktop/iOSProject/TechFlixAndChill/ViewController.swift"
+                  timestampString = "479071368.578314"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TechFlixAndChill.ViewController.init (TechFlixAndChill.ViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; TechFlixAndChill.ViewController"
+                  moduleName = "TechFlixAndChill"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nirajsuresh/Desktop/iOSProject/TechFlixAndChill/ViewController.swift"
+                  timestampString = "479071368.578563"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "58">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TechFlixAndChill.ViewController.init (TechFlixAndChill.ViewController.Type)(coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;TechFlixAndChill.ViewController&gt;"
+                  moduleName = "TechFlixAndChill"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nirajsuresh/Desktop/iOSProject/TechFlixAndChill/ViewController.swift"
+                  timestampString = "479071368.57875"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "19">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

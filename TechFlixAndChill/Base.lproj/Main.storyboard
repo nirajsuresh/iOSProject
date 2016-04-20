@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
         <!--StartPage-->
@@ -48,19 +48,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cbf-Aw-MPw">
-                                <rect key="frame" x="236" y="260" width="89" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <state key="normal" title="REGISTER">
-                                    <color key="titleColor" red="0.99111913770000004" green="0.99871154120000005" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" red="0.47476276179999999" green="0.47476276179999999" blue="0.47476276179999999" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="login:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ROj-hw-y72"/>
-                                    <action selector="register:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Cbq-lx-x7d"/>
-                                    <segue destination="bfv-Bb-Bcv" kind="show" id="Asr-Qz-cnm"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I1I-46-fvP">
                                 <rect key="frame" x="98" y="260" width="62" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
@@ -69,7 +56,7 @@
                                     <color key="titleShadowColor" red="0.47476276179999999" green="0.47476276179999999" blue="0.47476276179999999" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="login:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OBP-Jb-fc2"/>
+                                    <action selector="login:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9RD-qy-plZ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SlR-pt-Zvq">
@@ -80,18 +67,29 @@
                                     <color key="titleShadowColor" red="0.47476276179999999" green="0.47476276179999999" blue="0.47476276179999999" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jFK-M4-FA1">
+                                <rect key="frame" x="231" y="260" width="85" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="REGISTER">
+                                    <color key="titleColor" red="0.99111913770000004" green="0.99871154120000005" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" red="0.47476276179999999" green="0.47476276179999999" blue="0.47476276179999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="bfv-Bb-Bcv" kind="show" id="oe8-dj-9Kd"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
-                        <outlet property="password" destination="IpB-1N-3iy" id="Yov-o8-4Pb"/>
-                        <outlet property="username" destination="kO5-dF-IQX" id="IvH-mA-vWZ"/>
+                        <outlet property="password" destination="IpB-1N-3iy" id="hoR-us-8nv"/>
+                        <outlet property="username" destination="kO5-dF-IQX" id="VVs-kQ-Kib"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="305" y="387"/>
+            <point key="canvasLocation" x="317" y="415"/>
         </scene>
         <!--Registration-->
         <scene sceneID="N2Z-Dc-dMu">
@@ -108,6 +106,29 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="CSf-NB-Van">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b1p-Yx-6aQ">
+                                <rect key="frame" x="163" y="550" width="99" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="REGISTER">
+                                    <color key="titleColor" red="0.99111913770000004" green="0.99871154120000005" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" red="0.47476276179999999" green="0.47476276179999999" blue="0.47476276179999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="register:" destination="bfv-Bb-Bcv" eventType="touchUpInside" id="PyR-QY-T6E"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3E3-Rb-IFh">
+                                <rect key="frame" x="163" y="588" width="99" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="CANCEL">
+                                    <color key="titleColor" red="0.99111913770000004" green="0.99871154120000005" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" red="0.47476276179999999" green="0.47476276179999999" blue="0.47476276179999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="login:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PxN-9t-TCQ"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="9uO-pR-YOr"/>
+                                </connections>
+                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="TechFlixAndChill" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="at2-R8-eqQ">
                                 <rect key="frame" x="44" y="45" width="326" height="46"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="39"/>
@@ -115,7 +136,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Register" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="flN-k8-pee">
-                                <rect key="frame" x="49" y="106" width="326" height="46"/>
+                                <rect key="frame" x="44" y="106" width="326" height="46"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -133,12 +154,12 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YCm-Tv-KIj">
-                                <rect key="frame" x="190" y="186" width="167" height="30"/>
+                                <rect key="frame" x="209" y="186" width="167" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5w1-SP-hpN">
-                                <rect key="frame" x="190" y="231" width="167" height="30"/>
+                                <rect key="frame" x="209" y="231" width="167" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
@@ -149,7 +170,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GjL-0p-ml3">
-                                <rect key="frame" x="190" y="274" width="167" height="30"/>
+                                <rect key="frame" x="209" y="274" width="167" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
@@ -166,36 +187,42 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Major:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M9C-mT-Xun">
-                                <rect key="frame" x="54" y="462" width="124" height="26"/>
+                                <rect key="frame" x="58" y="414" width="124" height="26"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Fpj-qy-WRL">
-                                <rect key="frame" x="190" y="317" width="167" height="30"/>
+                                <rect key="frame" x="209" y="317" width="167" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FLG-1O-pcs">
-                                <rect key="frame" x="190" y="362" width="167" height="30"/>
+                                <rect key="frame" x="209" y="362" width="167" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xRZ-KA-2Ga">
+                                <rect key="frame" x="209" y="414" width="167" height="121"/>
+                                <color key="backgroundColor" red="0.989247311827957" green="1" blue="1" alpha="0.693040780141844" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </pickerView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
-                        <outlet property="email" destination="FLG-1O-pcs" id="xnA-Jo-ez8"/>
-                        <outlet property="password" destination="5w1-SP-hpN" id="6uy-g9-sZ8"/>
-                        <outlet property="repassword" destination="GjL-0p-ml3" id="Ahn-yw-0ex"/>
-                        <outlet property="secuHint" destination="Fpj-qy-WRL" id="izU-1C-nad"/>
-                        <outlet property="username" destination="YCm-Tv-KIj" id="PLf-Ov-vPO"/>
+                        <outlet property="email" destination="FLG-1O-pcs" id="cna-qS-Jut"/>
+                        <outlet property="major" destination="xRZ-KA-2Ga" id="27b-nn-Tnc"/>
+                        <outlet property="password" destination="5w1-SP-hpN" id="QNt-p9-Qnb"/>
+                        <outlet property="repassword" destination="GjL-0p-ml3" id="QFg-JC-OuI"/>
+                        <outlet property="secuHint" destination="Fpj-qy-WRL" id="Z75-1f-gfK"/>
+                        <outlet property="username" destination="YCm-Tv-KIj" id="DGj-Uf-WGz"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lbr-CJ-x6A" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="892" y="387"/>
+            <point key="canvasLocation" x="892" y="415"/>
         </scene>
     </scenes>
     <resources>
